@@ -1,0 +1,18 @@
+// This configuration is intended for IDE support + type checking only.
+// Reference: https://stackoverflow.com/a/60223923
+{
+    "include": ["src"],
+    "exclude": ["src/types/*.js", "**/*.test.js"],
+    "compilerOptions": {
+        "checkJs": true,
+        "noEmit": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "lib": ["esnext", "dom"],
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    }
+}

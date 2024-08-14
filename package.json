@@ -1,0 +1,34 @@
+{
+    "name": "a11y-auto-contrast",
+    "version": "1.0.0",
+    "description": "An algorithm that takes a background color value and returns a text-color that would pass a11y accessibility checks",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint src",
+        "prettier:check": "prettier --check .",
+        "prettier:fix": "prettier --write .",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "ts:check": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Raymond-Cox/a11y-auto-contrast.git"
+    },
+    "keywords": [
+        "a11y"
+    ],
+    "author": "Raymond-Cox",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Raymond-Cox/a11y-auto-contrast/issues"
+    },
+    "homepage": "https://github.com/Raymond-Cox/a11y-auto-contrast#readme",
+    "devDependencies": {
+        "@eslint/js": "^9.9.0",
+        "eslint": "^9.9.0",
+        "globals": "^15.9.0",
+        "prettier": "^3.3.3",
+        "typescript": "^5.5.4"
+    }
+}
